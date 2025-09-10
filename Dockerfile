@@ -2,7 +2,7 @@
 FROM ghost:5-alpine
 
 # URL publique (Ghost l’utilise pour les liens)
-ENV url=https://boringbusiness.fr
+ENV url=https://blog.boringbusiness.fr
 
 # On fournit notre config de prod
 COPY config.production.json /var/lib/ghost/config.production.json
