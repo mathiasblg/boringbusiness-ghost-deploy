@@ -7,19 +7,9 @@
   "database": {
     "client": "sqlite3",
     "connection": {
-      "filename": "content/data/ghost.db"
+      "filename": "/var/lib/ghost/content/data/ghost.db"
     }
   },
-  "mail": {
-    "transport": "Direct"
-  },
-  "logging": {
-    "level": "info",
-    "rotation": {
-      "enabled": true
-    }
-  },
-  "paths": {
-    "contentPath": "content"
-  }
+  "logging": { "level": "info" },
+  "paths": { "contentPath": "/var/lib/ghost/content" }
 }
