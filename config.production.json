@@ -11,16 +11,7 @@
     }
   },
   "mail": {
-    "transport": "SMTP",
-    "options": {
-      "service": "SendGrid",
-      "host": "smtp.sendgrid.net",
-      "port": 587,
-      "auth": {
-        "user": "apikey",
-        "pass": "__SENDGRID_API_KEY__"
-      }
-    }
+    "transport": "Direct"
   },
   "logging": {
     "level": "info"
@@ -29,4 +20,3 @@
     "contentPath": "/var/lib/ghost/content"
   }
 }
-
