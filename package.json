@@ -5,6 +5,6 @@
     "start": "ghost run"
   },
   "dependencies": {
-    "ghost": "latest"
+    "ghost": "5"
   }
 }
