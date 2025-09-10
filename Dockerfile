@@ -8,4 +8,4 @@ ENV url=https://blog.boringbusiness.fr
 COPY config.production.json /var/lib/ghost/config.production.json
 
 # Ghost écoute ici
-EXPOSE 2368
+EXPOSE 10000
