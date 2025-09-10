@@ -1,7 +1,7 @@
 {
   "url": "https://blog.boringbusiness.fr",
   "server": {
-    "port": 2368,
+    "port": 10000,
     "host": "0.0.0.0"
   },
   "database": {
