@@ -10,6 +10,13 @@
       "filename": "/var/lib/ghost/content/data/ghost.db"
     }
   },
-  "logging": { "level": "info" },
-  "paths": { "contentPath": "/var/lib/ghost/content" }
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "level": "info"
+  },
+  "paths": {
+    "contentPath": "/var/lib/ghost/content"
+  }
 }
