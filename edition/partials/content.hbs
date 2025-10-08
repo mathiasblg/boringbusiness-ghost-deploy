@@ -54,7 +54,7 @@
         <div class="single-footer-left">
             {{#prev_post}}
             <div class="navigation navigation-previous">
-                <a class="navigation-link" href="{{url}}" aria-label="Previous post">
+                <a class="navigation-link" href="{{url}}" aria-label="Article précédent">
                     <span class="navigation-icon">{{> "icons/arrow-left"}}</span>
                 </a>
             </div>
@@ -64,7 +64,7 @@
         <div class="single-footer-middle">
             {{#if @custom.show_author}}
             <div class="single-footer-top">
-                <h3 class="single-footer-title">Published by:</h3>
+                <h3 class="single-footer-title">Publié par&nbsp;:</h3>
                 <div class="author-list">
                     {{#foreach authors}}
                         <div class="author-image-placeholder u-placeholder square">
@@ -85,7 +85,7 @@
         <div class="single-footer-right">
             {{#next_post}}
             <div class="navigation navigation-next">
-                <a class="navigation-link" href="{{url}}" aria-label="Next post">
+                <a class="navigation-link" href="{{url}}" aria-label="Article suivant">
                     <span class="navigation-icon">{{> "icons/arrow-right"}}</span>
                 </a>
             </div>
